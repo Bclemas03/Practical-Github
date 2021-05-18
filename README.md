@@ -53,9 +53,9 @@ Inline code: `make this word inline.`
 
 Format this text as code. 
 
-def foo():
-    if not bar:
-        return True
+    def foo():
+        if not bar:
+            return True
 
 Format this text as python-formatted code, using GitHub flavored code highlighting.
 
