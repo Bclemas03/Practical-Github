@@ -47,7 +47,7 @@ Here's an ordered list, with:
 
 # This is a large heading. 
 
-Inline code: make this word inline.
+Inline code: `r make this word inline.`
 
 # This is a large heading. 
 
