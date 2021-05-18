@@ -1,4 +1,4 @@
-# Practical-Markdown
+# IT Fundamentals
 
 # This is a large heading.
 
