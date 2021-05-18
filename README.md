@@ -17,13 +17,13 @@ This is another paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing el
 
 # This is a large heading.
 
-This text is italic.
+_This text is italic._
 
-This text is bold.
+**This text is bold.**
 
-This text is bold and italic!
+**_This text is bold and italic!_**
 
-This is a large heading.
+# This is a large heading.
 
 Here's an unorder list, with:
 
