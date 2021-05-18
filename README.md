@@ -59,7 +59,7 @@ Format this text as code.
 
 Format this text as python-formatted code, using GitHub flavored code highlighting.
 
-'''
+'''python
 def foo():
     if not bar:
         return True
