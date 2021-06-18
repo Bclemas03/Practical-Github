@@ -1,0 +1,97 @@
+<html>
+
+<head>
+
+    <style>
+
+    h1 {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    </style>
+
+    <title>Page Title</title>
+
+</head>
+
+    <body>
+
+        <script>
+            
+            function linkClick(link) {
+
+                if (link == 'Pardalote') {
+                    var outputText = 'Pardalote by fir0002 (CC-by-NC)';
+                    var elementText = document.getElementById('text');
+                    var outputImage = 'http://www.outgrabe.net/bird00.jpg';
+                    var elementImage = document.getElementById('image').src=outputImage;
+                    elementText.innerHTML = outputText;
+                    elementImage.innerHTML = outputImage;
+                }
+
+                else if (link == 'Purple Swamp Hen') {
+                    var outputText = 'Purple swamp hen by Toby Hudson (CC-by-SA)';
+                    var elementText = document.getElementById('text');
+                    var outputImage = 'http://www.outgrabe.net/bird01.jpg';
+                    var elementImage = document.getElementById('image').src=outputImage;
+                    elementText.innerHTML = outputText;
+                    elementImage.innerHTML = outputImage;
+                }
+
+                else if (link == 'White-headed Stilt') {
+                    var outputText = 'White-headed Stilt by JJ Harrison (CC-by-SA)';
+                    var elementText = document.getElementById('text');
+                    var outputImage = 'http://www.outgrabe.net/bird02.jpg';
+                    var elementImage = document.getElementById('image').src=outputImage;
+                    elementText.innerHTML = outputText;
+                    elementImage.innerHTML = outputImage;
+                }
+
+                else if (link == 'Inland Thornbill') {
+                    var outputText = 'Inland Thornbill by Peter Jacobs (CC-by-SA)';
+                    var elementText = document.getElementById('text');
+                    var outputImage = 'http://www.outgrabe.net/bird03.jpg';
+                    var elementImage = document.getElementById('image').src=outputImage;
+                    elementText.innerHTML = outputText;
+                    elementImage.innerHTML = outputImage;
+                }
+
+                else if (link == 'Rose Robin') {
+                    var outputText = 'Rose Robin by JJ Harrison (CC-by-SA)';
+                    var elementText = document.getElementById('text');
+                    var outputImage = 'http://www.outgrabe.net/bird04.jpg';
+                    var elementImage = document.getElementById('image').src=outputImage;
+                    elementText.innerHTML = outputText;
+                    elementImage.innerHTML = outputImage;
+                }
+
+            }
+        </script>
+
+        <h1>JavaScript Html Page</h1>
+        <h2>Links</h2>
+        <p>
+            <a href="#" onclick="linkClick('Pardalote');">|Pardalote|</a>
+            <a href="#" onclick="linkClick('Purple Swamp Hen');">|Purple Swamp Hen|</a>
+            <a href="#" onclick="linkClick('White-headed Stilt');">|White-headed Stilt|</a>
+            <a href="#" onclick="linkClick('Inland Thornbill');">|Inland Thornbill|</a>
+            <a href="#" onclick="linkClick('Rose Robin');">|Rose Robin|</a>
+        </p>
+        <h2>Image</h2>
+        <p>
+            <img id = "image" src="http://www.outgrabe.net/bird00.jpg" alt="image" width="500" height="500"></img>
+        </p>
+        <p id = "text">Awaiting Input</p>
+    </body>
+
+</html>
